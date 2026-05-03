@@ -1,7 +1,7 @@
 # libft
 _This project has been created as part of the 42 curriculum by vmeharia._
 
-**DESCRIPTION**
+## **DESCRIPTION**
 
 Code a C functions library from scratch.
 The functions are in 3 buckets
@@ -11,42 +11,42 @@ The functions are in 3 buckets
   
   - Linked list: The above functions are for string and memory manipulation. This set of 9 functions is for list manipulation.
 
-**INSTRUCTIONS**
+## **INSTRUCTIONS**
 
-   **Standards and Rules**
+  ### **Standards and Rules**
   
-      The Norm: Code must strictly comply with the Norm; any norm error (even in bonus files) will result in a grade of 0.  
+    - The Norm: Code must strictly comply with the Norm; any norm error (even in bonus files) will result in a grade of 0.  
 
-      No Global Variables: Declaring global variables is strictly forbidden.  
+    - No Global Variables: Declaring global variables is strictly forbidden.  
 
-      Function Scope: Helper functions must be defined as static to restrict their scope to the appropriate file.  
+    - Function Scope: Helper functions must be defined as static to restrict their scope to the appropriate file.  
 
-      Naming Convention: All recreated standard functions must be prefixed with ft_ (e.g., strlen becomes ft_strlen).  
+    - Naming Convention: All recreated standard functions must be prefixed with ft_ (e.g., strlen becomes ft_strlen).  
 
-      Forbidden Keywords: Cannot use "restrict" keyword in prototypes or compile with the -std=c99 flag.
+    - Forbidden Keywords: Cannot use "restrict" keyword in prototypes or compile with the -std=c99 flag.
 
-    **Memory Management & Stability **
+  ### **Memory Management & Stability**
     
-      No Crashes: Functions must not quit unexpectedly due to segmentation faults, bus errors, or double frees (except for undefined behavior). If this occurs, the project receives a 0. 
+    - No Crashes: Functions must not quit unexpectedly due to segmentation faults, bus errors, or double frees (except for undefined behavior). If this occurs, the project receives a 0. 
   
-      No Leaks: All heap-allocated memory must be properly freed; memory leaks will not be tolerated.
+    - No Leaks: All heap-allocated memory must be properly freed; memory leaks will not be tolerated.
 
-    **Compilation & Library Creation**
+  ### **Compilation & Library Creation**
   
-      Compiler and Flags: Every .c file must be compiled using cc with the strict flags -Wall, -Wextra, and -Werror.
+    - Compiler and Flags: Every .c file must be compiled using cc with the strict flags -Wall, -Wextra, and -Werror.
   
-      Makefile Rules: Makefile must at least contain the rules $(NAME), all, clean, fclean, and re.  
+    - Makefile Rules: Makefile must at least contain the rules $(NAME), all, clean, fclean, and re.  
 
-      No Relinking: Makefile must not perform any relinking.  
+    - No Relinking: Makefile must not perform any relinking.  
 
-      Archive Creation: Must use the ar command to create the library (libft.a); using libtool is forbidden.  
+    - Archive Creation: Must use the ar command to create the library (libft.a); using libtool is forbidden.  
 
-    **Submission Structure**
+  ### **Submission Structure**
   
-      File Location: All project files, including libft.a, must be placed at the root of your Git repository.  
+    - File Location: All project files, including libft.a, must be placed at the root of your Git repository.  
     
-      Unused Files: Submitting unused files is not allowed.  
+    - Unused Files: Submitting unused files is not allowed.  
   
-      README Requirements: You must provide a README.md at the root of your repository containing specific italicized introductory text, a description, setup instructions, a resources section (detailing AI usage), and a detailed description of the library. 
+    - README Requirements: You must provide a README.md at the root of your repository containing specific italicized introductory text, a description, setup instructions, a resources section (detailing AI usage), and a detailed description of the library. 
 
-**RESOURCES**
+## **RESOURCES**
