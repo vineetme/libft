@@ -3,13 +3,13 @@ _This project has been created as part of the 42 curriculum by vmeharia._
 
 ## **DESCRIPTION**
 
-Code a C functions library from scratch.
-The functions are in 3 buckets
-  - libc fubctions: reimplement a set of 23 functions from libc (with their prototypes and behaviour exactly as defined in man page)
+Create a C functions library from scratch, containing 43 functions for manipulating strings, memory and lists as follows:
+
+  - libc fubctions: reimplement 23 functions from libc (with their prototypes and behaviour exactly as defined in man page).
   
-  - Additional functions: develop 11 functions that are not in libc / behave a little differently from the standard function
+  - Additional functions: develop 11 functions that are either not in libc or behave a little differently from the standard function.
   
-  - Linked list: The above functions are for string and memory manipulation. This set of 9 functions is for list manipulation.
+  - Linked list: Set of 9 functions for list manipulation.
 
 ## **INSTRUCTIONS**
 
