@@ -47,6 +47,14 @@ Create a C functions library from scratch, containing 43 functions for manipulat
     
     - Unused Files: Submitting unused files is not allowed.  
   
-    - README Requirements: You must provide a README.md at the root of your repository containing specific italicized introductory text, a description, setup instructions, a resources section (detailing AI usage), and a detailed description of the library. 
+    - README Requirements: You must provide a README.md at the root of your repository containing specific italicized introductory text, a description, setup instructions, a resources section (detailing AI usage), and a detailed description of the library.
+
+  ### **Special Note**
+
+   - For the character classification functions (isalpha, isdigit, isalnum, isascii, isprint)the return value must be:
+    - 1 if the character matches the tested class
+    - 0 if the character does not match
+   - For ’calloc’ function: If nmemb or size is 0, then calloc() returns a unique pointer value that can be successfully passed to free().
 
 ## **RESOURCES**
+    To be added....
