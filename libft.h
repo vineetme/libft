@@ -15,6 +15,7 @@
 
 # include <stddef.h>
 # include <stdlib.h>
+# include <unistd.h>
 
 /*---------CHARS------------------*/
 int			ft_isalpha(int c);
@@ -35,6 +36,7 @@ char		*ft_strrchr(const char *s, int c);
 int			ft_strncmp(const char *s1, const char *s2, size_t n);
 char		*ft_strnstr(const char *haystack, const char *needle, size_t len);
 char		*ft_strdup(const char *s);
+char		*ft_substr(char const *s, unsigned int start, size_t len);
 
 /*----------MEMORY----------------*/
 
@@ -49,5 +51,12 @@ void		*ft_calloc(size_t count, size_t size);
 /*----------NUMBERS---------------*/
 
 int			ft_atoi(const char *str);
+
+/*----------FILE DESCRIPTORS------*/
+
+void		ft_putchar_fd(char c, int fd);
+void		ft_putstr_fd(char *s, int fd);
+void		ft_putnedl_fd(char *s, int fd);
+void		ft_putnbr_fd(int n, int fd);
 
 #endif
