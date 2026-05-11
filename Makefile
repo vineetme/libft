@@ -35,6 +35,8 @@ OBJS = 	ft_isalpha.o \
 		ft_itoa.o\
 		ft_strmapi.o\
 		ft_striteri.o\
+		ft_lstnew.o\
+		ft_lstsize.o\
 
 $(NAME): $(OBJS)
 	ar rcs $(NAME) $(OBJS)
