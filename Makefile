@@ -29,6 +29,9 @@ OBJS = 	ft_isalpha.o \
 		ft_putendl_fd.o\
 		ft_putnbr_fd.o\
 		ft_substr.o\
+		ft_strjoin.o\
+		ft_strtrim.o\
+		ft_split.o\
 
 $(NAME): $(OBJS)
 	ar rcs $(NAME) $(OBJS)
