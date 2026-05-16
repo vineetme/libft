@@ -1,4 +1,3 @@
-# libft
 _This project has been created as part of the 42 curriculum by vmeharia._
 
 ## **DESCRIPTION**
@@ -51,10 +50,12 @@ Create a C functions library from scratch, containing 43 functions for manipulat
 
   ### **Special Note**
 
-   - For the character classification functions (isalpha, isdigit, isalnum, isascii, isprint)the return value must be:
-    - 1 if the character matches the tested class
-    - 0 if the character does not match
+   For the character classification functions (isalpha, isdigit, isalnum, isascii, isprint)the return value must be:
+   - 1 if the character matches the tested class
+   - 0 if the character does not match
    - For ’calloc’ function: If nmemb or size is 0, then calloc() returns a unique pointer value that can be successfully passed to free().
 
 ## **RESOURCES**
-    To be added....
+    - External tester I made use of for cross checking https://github.com/Sfabi28/libft_tester
+    - AI was used to learn concepts, go deeper into some topics, ask questions and test my knowledge, not to write code
+    - Made use of many many resources, too many to write. Will update later.

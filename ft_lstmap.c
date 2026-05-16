@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vineet <vineet@student.42.fr>              +#+  +:+       +#+        */
+/*   By: vmeharia <vmeharia@student.42berlin.d      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/11 13:33:52 by vineet            #+#    #+#             */
-/*   Updated: 2026/05/11 13:33:54 by vineet           ###   ########.fr       */
+/*   Created: 2026/05/11 19:37:23 by vmeharia          #+#    #+#             */
+/*   Updated: 2026/05/11 19:37:25 by vmeharia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	t_list	*new_node;
 	void	*new_content;
 
-	if (!lst || !f || !del)
+	if (!lst || !f)
 		return (NULL);
 	new_list = NULL;
 	while (lst != NULL)
@@ -27,7 +27,8 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 		new_node = ft_lstnew(new_content);
 		if (!new_node)
 		{
-			del(new_content);
+			if (del != NULL)
+				del(new_content);
 			ft_lstclear(&new_list, del);
 			return (NULL);
 		}

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vineet <vineet@student.42.fr>              +#+  +:+       +#+        */
+/*   By: vmeharia <vmeharia@student.42berlin.d      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/11 10:25:07 by vineet            #+#    #+#             */
-/*   Updated: 2026/05/11 10:25:19 by vineet           ###   ########.fr       */
+/*   Created: 2026/05/11 19:42:59 by vmeharia          #+#    #+#             */
+/*   Updated: 2026/05/11 19:43:03 by vmeharia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 	i = 0;
 	while (s[i] != '\0')
 	{
-		f(1, &s[i]);
+		f(i, &s[i]);
 		i++;
 	}
 }

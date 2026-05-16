@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vineet <vineet@student.42.fr>              +#+  +:+       +#+        */
+/*   By: vmeharia <vmeharia@student.42berlin.d      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/11 09:50:25 by vineet            #+#    #+#             */
-/*   Updated: 2026/05/11 09:50:30 by vineet           ###   ########.fr       */
+/*   Created: 2026/05/11 19:31:59 by vmeharia          #+#    #+#             */
+/*   Updated: 2026/05/11 19:32:02 by vmeharia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,8 @@ char	*ft_itoa(int n)
 	if (!str)
 		return (NULL);
 	str[len] = '\0';
+	if (nb == 0)
+		str[0] = '0';
 	if (nb < 0)
 	{
 		str[0] = '-';
